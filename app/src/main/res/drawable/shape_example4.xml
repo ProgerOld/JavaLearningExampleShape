@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#FBB8F2" /> <!-- Цвет -->
+            <corners android:radius="30dp"/> <!-- Скругление углов -->
+            <gradient android:type="radial"
+                android:gradientRadius="300dp"
+                android:startColor="#4FC7FF"
+                android:endColor="#F81BFF"
+                android:angle="45.0" /> <!-- Цвет фона-->
+        </shape>
+    </item>
+</selector>
